@@ -54,7 +54,7 @@ dbt-all = [
     "dbt-teradata",
     "dbt-vertica",
 ]
-dbt-fabric["dbt-fabric"]
+dbt-fabric = ["dbt-fabric"]
 dbt-athena = ["dbt-athena-community", "apache-airflow-providers-amazon>=8.0.0"]
 dbt-bigquery = ["dbt-bigquery"]
 dbt-clickhouse = ["dbt-clickhouse"]
